@@ -33,5 +33,6 @@ REST API とは、この REST 原則に基づいて設計された API のこと
 | ------------------------------------ | ----------- | ------------------------ |
 | https://api.example.com/movies       | GET         | ムービー情報一覧画面取得 |
 | https://api.example.com/movies       | POST        | ムービーの新規登録       |
+| https://api.example.com/movies/12345 | GET         | id12345のムービーの詳細画面取得 |
 | https://api.example.com/movies/12345 | PUT         | ムービーの更新、登録     |
 | https://api.example.com/movies/12345 | DELETE      | ムービーの削除           |
